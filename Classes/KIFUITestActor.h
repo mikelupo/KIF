@@ -565,5 +565,6 @@ static inline KIFDisplacement KIFDisplacementForSwipingInDirection(KIFSwipeDirec
  @param duration Amount of time for a background event before the app becomes active again
  */
 - (void)deactivateAppForDuration:(NSTimeInterval)duration;
+- (BOOL)acknowledgeSystemAlert;
 
 @end
