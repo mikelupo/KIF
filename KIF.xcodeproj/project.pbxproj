@@ -21,6 +21,8 @@
 		4D2FD4EE1AF5936700E61192 /* UIView-Debugging.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADD2160096BE41C780FBD95 /* UIView-Debugging.m */; };
 		5A62B0AC1BB2043B00A3F480 /* AccessibilityIdentifierPullToRefreshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A62B0AB1BB2043B00A3F480 /* AccessibilityIdentifierPullToRefreshTests.m */; };
 		5A62B0AE1BB205CA00A3F480 /* PullToRefreshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A62B0AD1BB205CA00A3F480 /* PullToRefreshTests.m */; };
+		5A8392571FBE654F007B7789 /* BigAssTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8392561FBE654F007B7789 /* BigAssTableViewController.m */; };
+		5A83925B1FBE712D007B7789 /* BigAssTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A83925A1FBE712D007B7789 /* BigAssTableTests.m */; };
 		5C877DD01B057E13006A3AC6 /* KIFUITestActor-IdentifierTests.h in Headers */ = {isa = PBXBuildFile; fileRef = EB1A44D31A0C3268004A3F61 /* KIFUITestActor-IdentifierTests.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C877DD11B0A8B8F006A3AC6 /* UIView-Debugging.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ADD26484C6C438B71DC15C5 /* UIView-Debugging.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C877DD21B0A8B93006A3AC6 /* UIView-Debugging.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADD2160096BE41C780FBD95 /* UIView-Debugging.m */; };
@@ -289,6 +291,8 @@
 		4A48107A19708CAB0003A32E /* ExistTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExistTests.m; sourceTree = "<group>"; };
 		5A62B0AB1BB2043B00A3F480 /* AccessibilityIdentifierPullToRefreshTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessibilityIdentifierPullToRefreshTests.m; sourceTree = "<group>"; };
 		5A62B0AD1BB205CA00A3F480 /* PullToRefreshTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullToRefreshTests.m; sourceTree = "<group>"; };
+		5A8392561FBE654F007B7789 /* BigAssTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BigAssTableViewController.m; sourceTree = "<group>"; };
+		5A83925A1FBE712D007B7789 /* BigAssTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BigAssTableTests.m; sourceTree = "<group>"; };
 		5F6A1B371C191F9600F20F22 /* UIApplicationKIFAdditionsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIApplicationKIFAdditionsTests.m; sourceTree = "<group>"; };
 		62A360101F3DA5400017DDCA /* KIFTestActor_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIFTestActor_Private.h; sourceTree = "<group>"; };
 		84D293AC1A2C84F700C10944 /* SystemAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemAlertViewController.m; sourceTree = "<group>"; };
@@ -738,6 +742,7 @@
 				EA0F25491829839E006FF825 /* CollectionViewController.m */,
 				D9EA274218F05A6700D87E57 /* ScrollViewController.m */,
 				D927B9DB18F9DF2D00DAD036 /* TableViewController.m */,
+				5A8392561FBE654F007B7789 /* BigAssTableViewController.m */,
 				AE62FCD51A1D2447002B10DA /* WebViewController.m */,
 				84D293AC1A2C84F700C10944 /* SystemAlertViewController.m */,
 				97E8A5CE1B0A62F700124E3B /* BackgroundViewController.m */,
@@ -767,6 +772,7 @@
 			children = (
 				FA8DA74D1A77117A00E0C644 /* KIFUIViewTestActor Tests */,
 				BFE4708E1C7F44C100580EF9 /* Additions */,
+				5A83925A1FBE712D007B7789 /* BigAssTableTests.m */,
 				2CED883D181F5EE1005ABD20 /* PickerTests.m */,
 				CD4E91EF1F479A8C005D530C /* CustomPickerTests.m */,
 				EB60ED19177F90C2005A041A /* GestureTests.m */,
@@ -1276,6 +1282,7 @@
 				FA8A3C5F1A772E6800206350 /* AccessibilityIdentifierTests_ViewTestActor.m in Sources */,
 				FA8A3C5D1A772CD100206350 /* WaitForAbscenceTests_ViewTestActor.m in Sources */,
 				FA8A3C5B1A77281900206350 /* WebViewTests_ViewTestActor.m in Sources */,
+				5A83925B1FBE712D007B7789 /* BigAssTableTests.m in Sources */,
 				EABD46B11857A0F300A5F081 /* SearchFieldTests.m in Sources */,
 				EABD46B21857A0F300A5F081 /* CascadingFailureTests.m in Sources */,
 				EABD46B31857A0F300A5F081 /* CompositionTests.m in Sources */,
@@ -1339,6 +1346,7 @@
 				EB60ECCD177F8C84005A041A /* main.m in Sources */,
 				EB60ED00177F9032005A041A /* AppDelegate.m in Sources */,
 				D927B9DC18F9DF2D00DAD036 /* TableViewController.m in Sources */,
+				5A8392571FBE654F007B7789 /* BigAssTableViewController.m in Sources */,
 				EB60ED01177F9032005A041A /* ShowHideViewController.m in Sources */,
 				CD19A99F1F46482200BF0325 /* CustomPickerController.m in Sources */,
 				EB60ED02177F9032005A041A /* TapViewController.m in Sources */,

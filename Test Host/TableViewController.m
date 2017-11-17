@@ -36,7 +36,6 @@
 
 // Work around a bug on iOS9 that accessibility trait Selected doesn't get set
 - (NSIndexPath *)tableView:(UITableView *)tableView willSelectRowAtIndexPath:(NSIndexPath *)indexPath;
->>>>>>> Fix table view tests, by modifying the test host behavior on iOS 9.0
 {
     if ([[[UIDevice currentDevice] systemVersion] compare:@"9.0" options:NSNumericSearch] == NSOrderedSame) {
         UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
